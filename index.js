@@ -112,10 +112,10 @@ Person.prototype.toString = function(){
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window binding: Is the default, it happens when you don’t define what "this" is pointing to so it just points to the window.
+    2. Implicit binding: it was probably the most common usage, it is used with methods, and when the function is invoked "this"  applies to whatever is left of the dot.
+    3. Explicit binding: is when you explicitly bind "this" to something specific, such as this.name = name;
+    4. New binding: is when you use "this" To refer to something new that you make later.
   */
   
   
